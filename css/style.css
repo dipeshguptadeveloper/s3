@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ------------------------------------------------ navigation --------------------------------------------*/
+
+
+nav{
+    position: sticky !important;
+    top: 0 !important;
+    background-color: white !important;
+}
+
+.navbar{
+    padding: 0 100px;
+    height: 70px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+    z-index: 100;
+}
+
+.navbar li{
+    padding: 0 20px;
+    transition: all .3s ease-in;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.navbar li:hover{
+    background-color: #D89709;
+    
+}
+
+
+.navbar .navbar-brand .logo-first{
+    color: white !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: -6px;
+}
+
+.navbar .navbar-brand .logo-second{
+    color: #D89709;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.btn-search{
+    border: 1px solid #D89709;
+    padding: 5px 25px !important;
+    border-radius: 10px;
+    outline: none !important;
+    outline-width: 0 !important;
+    color: white;
+}
+
+.btn-search:hover{
+    background-color: #D89709;
+}
+
+marquee{
+    color: #D89709;
+}
+
+
+/*------------------------------------------------------------------- scrolltop ------------------------------*/
+
+#myBTN
+{
+    display: none;
+    position: fixed;
+    bottom: 90px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #D89709;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#myBTN:hover
+{
+    background: #606060;
+}
+
+
+/* ------------------------------------------------ footer --------------------------------------------*/
+
+
+.bd-footer .logo-first{
+    color: black !important;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: -2px;
+}
+
+.bd-footer .logo-second{
+    color: #D89709;
+    font-size: 2rem;
+    font-weight: bold;
+}
